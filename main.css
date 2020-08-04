@@ -4,7 +4,7 @@
 div.main{
   font-family: 'Playfair Display', serif;
   width: 700px;
-  margin-left: 500px;
+  margin-left: 20%;
   margin-bottom: 100px;
   margin-top: 50px;
   display: flex;
@@ -34,7 +34,7 @@ div.social{
   display: flex;
   flex-direction: row;
   justify-content: space-space-around;
-  margin-left: 500px;
+  margin-left: 20%;
 
 }
 
