@@ -1,7 +1,10 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
 div.main{
-  font-family: 'Playfair Display', serif;
   width: 700px;
-  margin-left: 20%;
+  margin-left: 30%;
   margin-bottom: 100px;
   margin-top: 50px;
   display: flex;
@@ -34,7 +37,7 @@ div.social{
   display: flex;
   flex-direction: row;
   justify-content: space-space-around;
-  margin-left: 20%;
+  margin-left: 30%;
 
 }
 
@@ -70,7 +73,29 @@ div.desc{
   margin-top: 10px;
 
 }
-img {
+.books {
+  margin-left: 30%;
+  margin-top: 4%;
+}
+#bookdesc{
+  margin-bottom: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.book{
   width: 200px;
-  border-radius: 100px;
+  height: 250px;
+}
+.book:hover .overlay{
+  opacity: 1;
 }
