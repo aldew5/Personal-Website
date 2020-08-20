@@ -99,3 +99,7 @@ div.desc{
 .book:hover .overlay{
   opacity: 1;
 }
+
+.star{
+  padding-bottom: 4em;
+}
